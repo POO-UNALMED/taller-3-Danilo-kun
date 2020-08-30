@@ -78,4 +78,7 @@ public class TV {
 			volumen--;
 		}
 	}
+	public void setNumTv(int i) {
+		numTv=i;
+	}
 }
