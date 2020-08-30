@@ -27,7 +27,7 @@ public class TV {
 		}
 	}
 	public void setCanal(int i) {
-		if(i>=0 && i<=120 && estado==true) {
+		if(i>=1 && i<=120 && estado==true) {
 			canal=i;
 		}
 	}
@@ -64,7 +64,7 @@ public class TV {
 		}
 	}
 	public void canalDown() {
-		if(canal>0 && estado==true) {
+		if(canal>1 && estado==true) {
 			canal--;
 		}
 	}
