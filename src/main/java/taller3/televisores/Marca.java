@@ -2,7 +2,7 @@ package taller3.televisores;
 
 public class Marca {
 	public String nombre;
-	Marca(String str){
+	public Marca(String str){
 		nombre=str;
 	}
 	public void setMarca(String str) {

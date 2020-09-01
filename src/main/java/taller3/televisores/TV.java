@@ -7,7 +7,7 @@ public class TV {
 	int volumen=1;
 	public Control control;
 	public static int numTv;
-	TV(Marca mar,boolean est){
+	public TV(Marca mar,boolean est){
 		marca=mar;
 		estado=est;
 		numTv++;
