@@ -81,4 +81,10 @@ public class TV {
 	public void setNumTv(int i) {
 		numTv=i;
 	}
+	public static void setNumTV(int i) {
+		numTv=i;	
+	}
+	public static int getNumTV() {
+		return numTv;
+	}
 }
